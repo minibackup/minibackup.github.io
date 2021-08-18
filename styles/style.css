@@ -1,0 +1,32 @@
+.miniworld_icon {
+  border-radius: 15%;
+  margin-top: 10%;
+}
+.left {
+  position: absolute;
+  width: 50%;
+  padding-left: 10%;
+}
+h1 {
+  font-size: 70px;
+}
+.right {
+  margin-left: 50%;
+}
+.win,
+.android {
+  display: inline-block;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: greenyellow;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 7%;
+  width: 300px;
+  margin-left: 20%;
+}
+.win {
+  margin-top: 33%;
+}
