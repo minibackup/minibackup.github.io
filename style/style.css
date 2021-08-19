@@ -31,7 +31,6 @@ body {
 h1 {
   display: block;
   font-size: 70px;
-  margin-bottom: 40%;
 }
 .link {
   display: block;
@@ -54,4 +53,7 @@ h1 {
 }
 .android {
   order: 1;
+}
+.sentence {
+  margin-bottom: 40%;
 }
