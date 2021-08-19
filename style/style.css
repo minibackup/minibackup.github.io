@@ -1,0 +1,57 @@
+body {
+  background-image: url("../src/bgimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flexcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  flex-basis: 513px;
+
+  flex-grow: 1;
+  flex-direction: column;
+}
+.right {
+  order: 1;
+
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  border-radius: 15%;
+  margin-top: 10%;
+}
+h1 {
+  display: block;
+  font-size: 70px;
+  margin-bottom: 40%;
+}
+.link {
+  display: block;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: greenyellow;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 2%;
+  width: 300px;
+}
+.words {
+  font-size: 3px;
+}
+.left {
+  align-items: center;
+  justify-content: center;
+}
+.android {
+  order: 1;
+}
